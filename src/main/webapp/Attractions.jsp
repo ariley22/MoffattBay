@@ -9,7 +9,6 @@
   </head>
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
-<jsp:include page="BottomMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Nearby Attractions</h1>
   <p><b>Assignment Instructions:</b> Static HTML/CSS content related to activites available on the island. Hiking, kayaking, whale watching, and scuba diving should be included.</p>

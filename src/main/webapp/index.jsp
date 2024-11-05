@@ -10,7 +10,6 @@
   </head>
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
-<jsp:include page="BottomMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Welcome to Moffat Bay Lodge</h1>
   <p><b>Assignment Instructions:</b> Simple marketing landing page (use the Internet for inspiration on landing pages).</p>

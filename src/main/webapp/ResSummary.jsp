@@ -9,7 +9,6 @@
   </head>
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
-<jsp:include page="BottomMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Reservation Confirmation (Not Yet Submitted!)</h1>
   <p><b>Assignment Instructions:</b> This page appears after a user completes a booking. 

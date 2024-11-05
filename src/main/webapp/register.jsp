@@ -9,7 +9,6 @@
   </head>
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
-<jsp:include page="BottomMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Register New Account</h1>
   <p><b>Assignment Instructions:</b> Students can pick the number of fields, but at minimum, there should be fields for: 

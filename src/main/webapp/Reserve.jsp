@@ -9,7 +9,6 @@
   </head>
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
-<jsp:include page="BottomMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Book Your Vacation</h1>
   <p><b>Assignment Instructions:</b> You are building a lodge reservation page that allows customers to “book their vacation.” 
