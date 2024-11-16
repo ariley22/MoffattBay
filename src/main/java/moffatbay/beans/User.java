@@ -1,5 +1,7 @@
 package moffatbay.beans;
 
+import moffatbay.model.HashUtil;
+
 public class User {
   private String email = "";
   private String firstName = "";
@@ -39,6 +41,7 @@ public class User {
     return password;
     }
   public void setPassword(String password) {
-    this.password = password;
+	String hashedPassword = HashUtil.hashPassword(password);
+    this.password = hashedPassword;
     }
   }
