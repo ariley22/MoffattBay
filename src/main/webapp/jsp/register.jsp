@@ -23,7 +23,7 @@
   Passwords should be hashed and/or encrypted using standard security practices (use the Internet for ideas/code snippets; 
   be sure to cite all external authors).</p>
   
-  <form action="" id="registrationForm">
+  <form id="registrationForm" action="/MoffatBay/mbay" method="POST">
       <input type="hidden" name="action" value="login"/>
       <table class="regform">
         <tr>
