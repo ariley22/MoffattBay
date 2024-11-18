@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%
+  String base = (String)application.getAttribute("base");
+  %>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -190,10 +193,13 @@
     <div class="header">
         <img src="images/logo.png" alt="Moffat Bay Lodge Logo">
         <nav>
-            <a href="#home">Home</a>
-            <a href="#rooms">Rooms</a>
-            <a href="#activities">Activities</a>
-            <a href="#contact">Contact</a>
+            <a href="<%=base%>?action=about">About</a>
+            <a href="<%=base%>?action=about">Book Your Vacation</a>
+            <a href="<%=base%>?action=about">Look Up Reservation</a>
+            <a href="<%=base%>?action=about">Attractions</a>
+            <a href="<%=base%>?action=about">Contact Us</a>
+            <a href="<%=base%>?action=about">Register</a>
+            <a href="<%=base%>?action=about">Login</a>
         </nav>
         <section class="hero-section">
         	<div class="hero-section-content">
