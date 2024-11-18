@@ -18,6 +18,8 @@ public class UserPeer {
     }
   
   	public static boolean checkUser(DataManager dataManager, String email, String passwordInput) {
+  		String hashedPassword = HashUtil.hashPassword(passwordInput);
+  		
 		String query = "SELECT password FROM customers WHERE email = ?";
 
 		try (Connection conn = dataManager.getConnection();
@@ -31,7 +33,7 @@ public class UserPeer {
 		        	if (rs.next()) {
 		        		String password = rs.getString("password");
 		                    
-		                if (password.equals(passwordInput)) {
+		                if (password.equals(hashedPassword)) {
 		                	return true; // The user is valid
 		                }
 		            }
