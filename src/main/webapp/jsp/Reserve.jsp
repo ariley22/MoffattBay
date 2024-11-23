@@ -42,6 +42,41 @@
   <p><b>Assignment Instructions:</b> You are building a lodge reservation page that allows customers to “book their vacation.” 
   MySQL must be used to save the data. Form selection options: room size, number of guests, and check-in/check-out dates. 
   Room size: double full beds = 120.00 per night, queen = 135.00 per night, double queen beds = 150.00 per night, and king = 160.00 per night.</p>
+  <form action="/MoffatBay/mbay" method="POST">
+      <input type="hidden" name="action" value="confirm"/>
+      <table>
+        <tr>
+          <th colspan="4">Booking Options</th>
+          </tr>
+        <tr>
+          <td><label for="roomType">Room Type:</label>
+			<select name="roomType" id="roomType">
+			  <option value="Double Full">Double Full Beds ($120/night)</option>
+			  <option value="Queen">Queen ($135/night)</option>
+			  <option value="Double Queen">Double Queen Beds ($150/night)</option>
+			  <option value="King">King ($160/night)</option>
+			</select></td>
+          </tr>
+        <tr>
+          <td>Number of Guests:</td>
+          <td><input type="number" name="numGuests"/></td>
+          </tr>
+         <tr>
+        <tr>
+          <td>Check-In Date:</td>
+          <td><input type="date" name="checkInDate"/></td>
+          </tr>
+         <tr>
+        <tr>
+          <td>Check-Out Date:</td>
+          <td><input type="date" name="checkOutDate"/></td>
+          </tr>
+         <tr>
+          <td><i>You will have a chance to confirm</i></td>
+          <td><input type="submit" value="Submit"/></td>
+         </tr>
+        </table>
+      </form>
 </div>
 </body>
 </html>

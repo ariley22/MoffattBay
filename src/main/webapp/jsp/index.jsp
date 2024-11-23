@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Moffat Bay Lodge</title>
+   <link rel="stylesheet" href="/MoffatBay/css/MoffatBay.css" type="text/css"/>
     <style>
         
         body {

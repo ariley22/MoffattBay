@@ -16,10 +16,11 @@
   <h1>Sign In To Existing Account</h1>
   <jsp:useBean id="user" class="moffatbay.beans.User"/>
   <jsp:setProperty property="*" name="user"/>
-  <%  dataManager.insertUser(user); %>
+  <%  dataManager.insertUser(user);
+  	session.setAttribute("userObject", user); %>
     <p><b>Assignment Instructions:</b> Provide customers with a login form and fields for username (use email address) and password. 
   Logged in customers should be added to the application’s session.</p>
-  <form action="">
+  <form action="/MoffatBay/mbay" method="POST">
       <input type="hidden" name="action" value="validate"/>
       <table class="regform">
         <tr>

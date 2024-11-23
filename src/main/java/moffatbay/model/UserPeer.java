@@ -45,4 +45,24 @@ public class UserPeer {
 		        
 		        return false; // Either email doesn't exist or password doesn't match
   	}
+  	public static int getUserId(DataManager dataManager, String email) {
+  		String query = "SELECT customer_id FROM customers WHERE email = ?";
+  		try (Connection conn = dataManager.getConnection();
+  				PreparedStatement stmt = conn.prepareStatement(query)) {
+  			            
+  			        // Set the email parameter in the query
+  			        stmt.setString(1, email);
+  			            
+  			        // Execute the query and get the result
+  			        try (ResultSet rs = stmt.executeQuery()) {
+  			        	if (rs.next()) {
+  			        		return rs.getInt("customer_id");
+  			            }
+  			        }
+  			            
+  			        } catch (SQLException e) {
+  			            e.printStackTrace();
+  			        }
+  		return 0;
+  	}
   }

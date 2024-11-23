@@ -66,6 +66,10 @@ public class MBServlet extends HttpServlet {
 		 String base = "/jsp/";
 		 String url = base + "index.jsp";
 		 String action = request.getParameter("action");
+	    var parammap = request.getParameterMap();
+	    for (String a : parammap.keySet()) {
+	        System.out.println("Parameters: " + a + " values:" + String.join(", ", parammap.get(a))) ;	
+	    }
 		 if (action != null) {
 		        switch (action) {
 		        case "login":
@@ -77,9 +81,13 @@ public class MBServlet extends HttpServlet {
 		        case "about":
 		          url = base + "AboutUs.jsp";
 		          break;
-		        case "reserve":
+		        case "reserve": //two cases go to the same page as different actions
 		        case "validate":
 		          url = base + "Reserve.jsp";
+		          break;
+		        case "confirm":
+		        case "success": //two cases go to the same page as different actions
+		          url = base + "ResSummary.jsp";
 		          break;
 		        case "lookup":
 		          url = base + "ResLookup.jsp";

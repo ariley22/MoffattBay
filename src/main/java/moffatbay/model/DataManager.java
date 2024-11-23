@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import moffatbay.beans.User;
+import moffatbay.beans.Reservation;
 
 /* Each instance stores all database connection info and is able
  * to start and close a connection */
@@ -53,6 +54,39 @@ public class DataManager {
       }
     }
   
+  public void insertReservation(Reservation reservation, String email) throws Exception {
+	  Connection connection = getConnection();
+	  if (connection != null) {
+	    Statement stmt = null;
+	    try {
+	      connection.setAutoCommit(false);
+	      stmt = connection.createStatement();
+	      try {
+	        ReservationPeer.createReservation(stmt, reservation, email, this);
+	        try { stmt.close(); }
+	        finally { stmt = null; }
+	        connection.commit();
+	        }
+	      catch (SQLException e) {
+	        System.out.println("Could not create user: " + e.getMessage());
+	        e.printStackTrace();
+	        try { connection.rollback(); }
+	        catch (SQLException ee) { }
+	        }
+	      }
+	    catch (SQLException e) {
+	      System.out.println("Could not create user: " + e.getMessage());
+	      e.printStackTrace();
+	      }
+	    finally {
+	      if (stmt != null) {
+	        try { stmt.close(); }
+	        catch (SQLException e) { }
+	        }
+	      putConnection(connection);
+	      }
+	    }
+  	}
   public void insertUser(User user) {
 	  Connection connection = getConnection();
 	  if (connection != null) {
@@ -88,5 +122,9 @@ public class DataManager {
   	}
   public boolean validateUser(String email, String password) {
 	  return UserPeer.checkUser(this, email, password);
+  }
+  
+  public int getUserIdFromEmail(String email) {
+	  return UserPeer.getUserId(this, email);
   }
 }
