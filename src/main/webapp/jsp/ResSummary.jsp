@@ -15,7 +15,7 @@
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
 <div class="content">
-  <h1>Reservation Confirmation (Not Yet Submitted!)</h1>
+  <h1>Reservation Confirmation</h1>
   <p><b>Assignment Instructions:</b> This page appears after a user completes a booking. 
   Provide customers with a reservation confirmation summary and a button to either cancel or submit the reservation. 
   Submitted reservation must be saved to MySQL. Canceling the reservation should take users back to the hotel reservation page.</p>
@@ -98,6 +98,7 @@
     <form action="">
       <input type="hidden" name="action" value="reserve"/>
       <table>
+      	<tr>
           <td>&nbsp;</td>
           <td><input type="submit" value="Cancel"/></td>
          </tr>
