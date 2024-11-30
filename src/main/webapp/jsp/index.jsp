@@ -195,12 +195,12 @@
         <img src="images/logo.png" alt="Moffat Bay Lodge Logo">
         <nav>
             <a href="<%=base%>?action=about">About</a>
-            <a href="<%=base%>?action=about">Book Your Vacation</a>
-            <a href="<%=base%>?action=about">Look Up Reservation</a>
-            <a href="<%=base%>?action=about">Attractions</a>
-            <a href="<%=base%>?action=about">Contact Us</a>
-            <a href="<%=base%>?action=about">Register</a>
-            <a href="<%=base%>?action=about">Login</a>
+            <a href="<%=base%>?action=reserve">Book Your Vacation</a>
+            <a href="<%=base%>?action=lookup">Look Up Reservation</a>
+            <a href="<%=base%>?action=attractions">Attractions</a>
+            <a href="<%=base%>?action=contact">Contact Us</a>
+            <a href="<%=base%>?action=register">Register</a>
+            <a href="<%=base%>?action=login">Login</a>
         </nav>
         <section class="hero-section">
         	<div class="hero-section-content">
