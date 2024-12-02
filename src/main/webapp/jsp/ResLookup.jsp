@@ -23,7 +23,7 @@
 	    int resId = 0;
 	    if(request.getParameter("resId") != ""){resId = Integer.parseInt(request.getParameter("resId"));}
 	    
-	    if (email != null) {
+	    if (email != "") {
 	    	int userId = dataManager.getUserIdFromEmail(email);
 	    	System.out.println("User ID: " + userId);
 	    	if(userId != 0){
