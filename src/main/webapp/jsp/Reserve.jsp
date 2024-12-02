@@ -83,10 +83,6 @@
 <div class="content">
 <!-- On validate action, we will check for request params, if they exist, check if they exist in DB, if yes, add user details to session.
     If no request params or not in database, redirect to login page. -->
-  <h1>Book Your Vacation</h1>
-  <p><b>Assignment Instructions:</b> You are building a lodge reservation page that allows customers to “book their vacation.” 
-  MySQL must be used to save the data. Form selection options: room size, number of guests, and check-in/check-out dates. 
-  Room size: double full beds = 120.00 per night, queen = 135.00 per night, double queen beds = 150.00 per night, and king = 160.00 per night.</p>
   <form action="/MoffatBay/mbay" method="POST">
       <input type="hidden" name="action" value="confirm"/>
       <table>

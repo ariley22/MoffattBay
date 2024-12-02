@@ -127,4 +127,10 @@ public class DataManager {
   public int getUserIdFromEmail(String email) {
 	  return UserPeer.getUserId(this, email);
   }
+  public String lookupResByResId(int resId) {
+	  return ReservationPeer.getResByResId(this, resId);
+  }
+  public String lookupResByUserId(int userId) {
+	  return ReservationPeer.getResbyUserId(this, userId);
+  }
 }
