@@ -99,6 +99,9 @@ public class MBServlet extends HttpServlet {
 		        case "contact":
 			      url = base + "ContactUs.jsp";
 			      break;
+		        case "contactUsSummary":
+			      url = base + "ContactUsSummary.jsp";
+			      break;
 			    default:
 		          url = base + "login.jsp";
 		          break;
