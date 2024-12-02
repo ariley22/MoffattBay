@@ -90,6 +90,7 @@ public class MBServlet extends HttpServlet {
 		          url = base + "ResSummary.jsp";
 		          break;
 		        case "lookup":
+		        case "query":
 		          url = base + "ResLookup.jsp";
 		          break;
 		        case "attractions":

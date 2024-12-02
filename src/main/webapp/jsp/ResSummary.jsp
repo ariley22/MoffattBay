@@ -16,9 +16,6 @@
 <jsp:include page="TopMenu.jsp" flush="true"/>
 <div class="content">
   <h1>Reservation Confirmation</h1>
-  <p><b>Assignment Instructions:</b> This page appears after a user completes a booking. 
-  Provide customers with a reservation confirmation summary and a button to either cancel or submit the reservation. 
-  Submitted reservation must be saved to MySQL. Canceling the reservation should take users back to the hotel reservation page.</p>
   <jsp:useBean id="reservation" class="moffatbay.beans.Reservation" scope="session"/>
   <jsp:setProperty property="*" name="reservation"/>
     <% 
@@ -27,7 +24,7 @@
     System.out.println("Reservation: " + reservation.toString());
 	String base = (String) application.getAttribute("base");
 	String action = request.getParameter("action");
-	String email = ((User)session.getAttribute("userObject")).getEmail();
+	String email = (String)session.getAttribute("username");
 	if (action != null && action.equals("success")) {
 	  try {
 		dataManager.insertReservation(reservation, email);
