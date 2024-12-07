@@ -3,9 +3,9 @@
 <%
   String base = (String)application.getAttribute("base");
   %>
-<div class="header">
+<div class="topbar">
 	<div class="logo">
-    	<p><a href="index.jsp"><b>MOFFAT BAY LODGE</b></a></p>
+    	<p><a href="<%=base%>"><b>MOFFAT BAY LODGE</b></a></p>
 	</div></div>
 	<div class="accounts">
 		 <p><a href="<%=base%>?action=login">Sign In</a>

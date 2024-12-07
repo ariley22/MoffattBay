@@ -32,6 +32,7 @@ body {
 .hero h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
+  color: white;
 }
 
 .hero p {
@@ -49,7 +50,7 @@ h2 {
   font-size: 2em;
   margin-bottom: 15px;
   text-align: center;
-  color: #007bff;
+  color: #007f66;
 }
 
 p {

@@ -12,10 +12,8 @@
     <style>
         
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
         }
         
         /* Header */
@@ -30,6 +28,7 @@
         .header h1 {
             margin: 0;
             font-size: 2.5em;
+            color: white;
         }
         .header img {
         	width: 400px;
@@ -190,22 +189,14 @@
 </head>
 
 <body>
+<jsp:include page="TopMenu.jsp" flush="true"/>
     <!-- Header -->
     <div class="header">
         <img src="images/logo.png" alt="Moffat Bay Lodge Logo">
-        <nav>
-            <a href="<%=base%>?action=about">About</a>
-            <a href="<%=base%>?action=reserve">Book Your Vacation</a>
-            <a href="<%=base%>?action=lookup">Look Up Reservation</a>
-            <a href="<%=base%>?action=attractions">Attractions</a>
-            <a href="<%=base%>?action=contact">Contact Us</a>
-            <a href="<%=base%>?action=register">Register</a>
-            <a href="<%=base%>?action=login">Login</a>
-        </nav>
         <section class="hero-section">
         	<div class="hero-section-content">
 		        <h1>Escape to Nature's Embrace at Moffat Bay Lodge</h1>
-		        <a href="#booking" class="cta-button">BOOK NOW</a>
+		        <a href="<%=base%>?action=reserve" class="cta-button">BOOK NOW</a>
 	        </div>
         </section>
     </div>
@@ -240,7 +231,7 @@
 	        </div>
         </div>
         <div class="learn-more">
-            <a href="#more">Learn More</a>
+            <a href="<%=base%>?action=about">Learn More</a>
         </div>
     </section>
 
@@ -250,7 +241,7 @@
             <img src="images/lodge1.jpeg" alt="Beautiful Room View">
             <h3>Beautiful Rooms</h3>
             <p>Breathtaking rooms and seaside adventures await you at Moffat Bay Lodge!</p>
-            <a href="#reserve" class="reserve-button">Reserve Your Room Today!</a>
+            <a href="<%=base%>?action=reserve" class="reserve-button">Reserve Your Room Today!</a>
         </div>
         <div>
             <h3>Seaside Activities to Explore</h3>
@@ -272,10 +263,10 @@
 	        </div>
 	        <div class="links">
 	        	<h3>Quick Links</h3>
-	        	<a href="#">About Us</a>
-	        	<a href="#">Attractions</a>
-	        	<a href="#">Rooms</a>
-	        	<a href="#">Login Page</a>
+	        	<a href="<%=base%>?action=about">About Us</a>
+	        	<a href="<%=base%>?action=attractions">Attractions</a>
+	        	<a href="<%=base%>?action=reserve">Book Now</a>
+	        	<a href="<%=base%>?action=login">Login Page</a>
 	        </div>
 	        <div class="social-icons">
 	        	<h3>Follow Us!</h3>

@@ -1,8 +1,14 @@
 body {
-	background: #ffffff;
-	font-family: palatino;
+	background: #f4f4f9;
+	font-family: Arial, sans-serif;
 }
-.header { /*********** Top bar ***********/
+p {
+	font-family: Arial, sans-serif;
+}
+h1, h2{
+	color: #007f66;
+}
+.topbar { /*********** Top bar ***********/
   background: #fff9e6;
   margin: 0px;
   padding: 0px;
@@ -18,7 +24,7 @@ body {
 .logo a {
   font-size: 34px;
   display: inline;
-  color: #009933;
+  color: #007f66;
   text-decoration: none;
   }
 .accounts {
