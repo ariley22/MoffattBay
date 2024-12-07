@@ -146,45 +146,6 @@
             text-decoration: none;
             border-radius: 5px;
         }
-        
-        /* Footer */
-        .footer-section{
-        	display: flex;
-        	box-sizing: border-box;
-        }
-        .footer {
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            text-align: center;
-            font-size: 0.9em;
-        }
-        .footer a {
-            color: #FFA500;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-        .footer .social-icons img {
-            width: 25px;
-            margin: 0 5px;
-        }
-        .contact {
-        	width: 25%;
-        }
-        .links {
-        	width: 20%;
-        	display: flex;
-        	flex-direction: column;
-        }
-        .social-icons {
-        	width: 20%;
-        }
-        .policy {
-        	width: 35%;
-        }
     </style>
 </head>
 
@@ -249,40 +210,6 @@
             <img src="images/beachfamily.jpg" alt="Seaside Activities">
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-    	<div class="footer-section">
-	        <div class="contact">
-		        Contact Us: 
-		        Moffat Bay Lodge
-				123 Island View Road
-				Joviedsa Island, San Juan Islands, WA
-				Phone: (555) 123-4567
-				Email: info@moffatbaylodge.com
-	        </div>
-	        <div class="links">
-	        	<h3>Quick Links</h3>
-	        	<a href="<%=base%>?action=about">About Us</a>
-	        	<a href="<%=base%>?action=attractions">Attractions</a>
-	        	<a href="<%=base%>?action=reserve">Book Now</a>
-	        	<a href="<%=base%>?action=login">Login Page</a>
-	        </div>
-	        <div class="social-icons">
-	        	<h3>Follow Us!</h3>
-	            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-	            <a href="#"><img src="images/x.png" alt="Twitter"></a>
-	            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-	        </div>
-	        <div class="policy">
-	        	<p>
-					Privacy Policy | Terms & Conditions </br> We value your privacy and are committed to protecting your personal information. Read our full Privacy Policy for details on data handling and security measures.
-					Terms of Service: By accessing our website and services, you agree to our Terms of Service, which outline your rights and responsibilities while using our site.
-					Cancellation Policy: Reservations can be canceled up to 48 hours before arrival without penalty. Please review our full Cancellation Policy for details.
-				</p>
-	        </div>
-        </div>
-        <p>&copy; 2024 Moffat Bay Lodge. All rights reserved.</p>
-    </footer>
+    <jsp:include page="footer.jsp" flush="true"/>
 </body>
 </html>

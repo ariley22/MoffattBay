@@ -95,11 +95,8 @@
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 MoffatBay Lodge. All Rights Reserved.</p>
-    </div>
-  </footer>
+    <jsp:include page="footer.jsp" flush="true"/>
+
 </div>
 </body>
 </html>

@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Nearby Attractions</title>
+  <link rel="stylesheet" href="/MoffatBay/css/MoffatBay.css" type="text/css"/>
     <link rel="stylesheet" href="/MoffatBay/css/Attractions.css" type="text/css"/>
 </head>
 <body>
@@ -45,8 +46,7 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p>© Moffat Bay Lodge</p>
-    </footer>
+    <jsp:include page="footer.jsp" flush="true"/>
+
 </body>
 </html>

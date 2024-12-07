@@ -66,3 +66,42 @@ h1, h2{
 	display: block;
 	padding: 8px;
 }
+        
+        /* Footer */
+        .footer-section{
+        	display: flex;
+        	box-sizing: border-box;
+        }
+        .footer1 {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .footer1 a {
+            color: #FFA500;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer1 a:hover {
+            text-decoration: underline;
+        }
+        .footer1 .social-icons img {
+            width: 25px;
+            margin: 0 5px;
+        }
+        .contact {
+        	width: 25%;
+        }
+        .links {
+        	width: 20%;
+        	display: flex;
+        	flex-direction: column;
+        }
+        .social-icons {
+        	width: 20%;
+        }
+        .policy {
+        	width: 35%;
+        }

@@ -27,5 +27,7 @@ h1 {
   <h1>Thank you! Someone will be in touch with you shortly. </h1>
   
 </div>
+    <jsp:include page="footer.jsp" flush="true"/>
+
 </body>
 </html>
