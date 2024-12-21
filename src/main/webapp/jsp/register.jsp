@@ -16,12 +16,11 @@
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
 <div class="content">
+
+<div class="login-container">
+<div class="login-form">
   <h1>Register New Account</h1>
-  <p><b>Assignment Instructions:</b> 
-  All customers should use their email address as the “username” field and the password 
-  should be at least 8 characters in length and include one number, one uppercase and one lowercase letter, one special character (hint: use regular expression). 
-  Passwords should be hashed and/or encrypted using standard security practices (use the Internet for ideas/code snippets; 
-  be sure to cite all external authors).</p>
+  
   
   <form id="registrationForm" action="/MoffatBay/mbay" method="POST">
       <input type="hidden" name="action" value="login"/>
@@ -104,6 +103,8 @@
             }
         });
     </script>
+</div>
+</div>
 </div>
     <jsp:include page="footer.jsp" flush="true"/>
 

@@ -13,6 +13,7 @@
 	type="text/css" />
 </head>
 <body>
+
 	<jsp:include page="TopMenu.jsp" flush="true" />
 	<% 
 	String base = (String) application.getAttribute("base");
@@ -46,6 +47,8 @@
 	else if(action != null && action.equals("lookup")){
 	%>
 	<div class="content">
+	<div class="lookup-container">
+		<div class="lookup-form">
 		<h1>Look Up Existing Reservation</h1>
 		<form action="/MoffatBay/mbay" method="POST">
 			<input type="hidden" name="action" value="query" />
@@ -68,6 +71,8 @@
 			</table>
 		</form>
 	</div>
+</div>
+</div>
 	<% }%>
 	    <jsp:include page="footer.jsp" flush="true"/>
 	
