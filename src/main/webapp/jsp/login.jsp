@@ -13,13 +13,14 @@
 <body>
 <jsp:include page="TopMenu.jsp" flush="true"/>
 <div class="content">
+<div class="login-container">
+<div class="login-form">
   <h1>Sign In To Existing Account</h1>
   <jsp:useBean id="user" class="moffatbay.beans.User"/>
   <jsp:setProperty property="*" name="user"/>
   <%  dataManager.insertUser(user);
   	session.setAttribute("userObject", user); %>
-    <p><b>Assignment Instructions:</b> Provide customers with a login form and fields for username (use email address) and password. 
-  Logged in customers should be added to the application’s session.</p>
+    
   <form action="/MoffatBay/mbay" method="POST">
       <input type="hidden" name="action" value="validate"/>
       <table class="regform">
@@ -40,6 +41,8 @@
          </tr>
         </table>
       </form>
+      </div>
+      </div>
 </div>
     <jsp:include page="footer.jsp" flush="true"/>
 

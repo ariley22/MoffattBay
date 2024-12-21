@@ -1,13 +1,68 @@
+html {
+    height: 100%;
+}
 body {
 	background: #f4f4f9;
 	font-family: Arial, sans-serif;
+	
+	margin: 0px;
+	padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+/* Main content wrapper */
+.content {
+    flex: 1; /* Ensures the content area grows to fill available space */
+}
+
+.login-container {
+
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+}
+
+.login-form {
+	
+    width: 100%;
+    max-width: 500px; /* Optional: Restrict the width of the form */
+    
+    padding: 20px;
+    background-color: white; /* Optional: Background color for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+    text-align: left; /* Align the text within the form */
+}
+
+.lookup-container {
+
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+}
+
+.lookup-form {
+	
+    width: 100%;
+    max-width: 500px; /* Optional: Restrict the width of the form */
+    
+    padding: 20px;
+    background-color: white; /* Optional: Background color for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+    text-align: left; /* Align the text within the form */
+}
+
 p {
 	font-family: Arial, sans-serif;
 }
 h1, h2{
 	color: #007f66;
 }
+
 .topbar { /*********** Top bar ***********/
   background: #fff9e6;
   margin: 0px;
@@ -71,13 +126,15 @@ h1, h2{
         .footer-section{
         	display: flex;
         	box-sizing: border-box;
+        	
+  			align-items: center;
         }
         .footer1 {
-            padding: 20px;
+            padding: 10px;
             background-color: #333;
             color: white;
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
         .footer1 a {
             color: #FFA500;
@@ -96,12 +153,15 @@ h1, h2{
         }
         .links {
         	width: 20%;
-        	display: flex;
-        	flex-direction: column;
         }
         .social-icons {
+        
         	width: 20%;
         }
         .policy {
         	width: 35%;
         }
+        
+
+
+

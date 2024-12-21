@@ -25,7 +25,7 @@
 		</init-param>
 		<init-param>
 			<param-name>dbPassword</param-name>
-			<param-value>password</param-value>
+			<param-value>Primchuk1006*</param-value>
 		</init-param>
 	</servlet>
 </web-app>

@@ -30,12 +30,10 @@
 	        </div>
 	        <div class="policy">
 	        	<p>
-					Privacy Policy | Terms & Conditions </br> We value your privacy and are committed to protecting your personal information. Read our full Privacy Policy for details on data handling and security measures.
-					Terms of Service: By accessing our website and services, you agree to our Terms of Service, which outline your rights and responsibilities while using our site.
+					<a>Privacy Policy | Terms & Conditions</a> </br> 
 					Cancellation Policy: Reservations can be canceled up to 48 hours before arrival without penalty. Please review our full Cancellation Policy for details.
 				</p>
 	        </div>
         </div>
-        <p>&copy; 2024 Moffat Bay Lodge. All rights reserved.</p>
     </footer>
     </html>
