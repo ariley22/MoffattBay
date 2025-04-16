@@ -32,9 +32,9 @@
       </p>
     </div>
     <div class="image-gallery">
-      <img src="images/about/sunrise.png" alt="Sunrise over the lodge">
-      <img src="images/about/aboutus3.png" alt="Guests enjoying a lakeside evening">
-      <img src="images/about/aboutus2.jpg" alt="Aerial view of Moffat Bay">
+      <img src="/MoffatBay/images/about/sunrise.png" alt="Sunrise over the lodge">
+      <img src="/MoffatBay/images/about/aboutus3.png" alt="Guests enjoying a lakeside evening">
+      <img src="/MoffatBay/images/about/aboutus2.jpg" alt="Aerial view of Moffat Bay">
     </div>
   </section>
 
@@ -51,9 +51,9 @@
       </ul>
     </div>
     <div class="image-gallery">
-      <img src="images/about/cabin.jpg" alt="Luxurious cabin interior">
-      <img src="images/about/dining.jpg" alt="Fine dining restaurant">
-      <img src="images/about/spa.jpg" alt="Relaxing spa area">
+      <img src="/MoffatBay/images/about/cabin.jpg" alt="Luxurious cabin interior">
+      <img src="/MoffatBay/images/about/dining.jpg" alt="Fine dining restaurant">
+      <img src="/MoffatBay/images/about/spa.jpg" alt="Relaxing spa area">
     </div>
   </section>
 
@@ -70,9 +70,9 @@
       </ul>
     </div>
     <div class="image-gallery">
-      <img src="images/about/trail.jpg" alt="Scenic lookout">
-      <img src="images/about/birdwatching.png" alt="Birdwatching at Eagle Point">
-      <img src="images/about/shops.jpeg" alt="Downtown shops">
+      <img src="/MoffatBay/images/about/trail.jpg" alt="Scenic lookout">
+      <img src="/MoffatBay/images/about/birdwatching.png" alt="Birdwatching at Eagle Point">
+      <img src="/MoffatBay/images/about/shops.jpeg" alt="Downtown shops">
     </div>
   </section>
 
@@ -89,9 +89,9 @@
       </ul>
     </div>
     <div class="image-gallery">
-      <img src="images/about/kayaking.jpg" alt="Kayaking adventures">
-      <img src="images/about/fishing.jpg" alt="Fishing on the bay">
-      <img src="images/about/bonfire.png" alt="Bonfire at dusk">
+      <img src="/MoffatBay/images/about/kayaking.jpg" alt="Kayaking adventures">
+      <img src="/MoffatBay/images/about/fishing.jpg" alt="Fishing on the bay">
+      <img src="/MoffatBay/images/about/bonfire.png" alt="Bonfire at dusk">
     </div>
   </section>
 

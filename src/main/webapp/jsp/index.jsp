@@ -18,7 +18,7 @@
         
         /* Header */
         .header {
-            background-image: url('images/sunset_landing_page.jpg');
+            background-image: url('/MoffatBay/images/sunset_landing_page.jpg');
             background-size: cover;
             color: white;
             text-align: center;
@@ -153,7 +153,7 @@
 <jsp:include page="TopMenu.jsp" flush="true"/>
     <!-- Header -->
     <div class="header">
-        <img src="images/logo.png" alt="Moffat Bay Lodge Logo">
+        <img src="/MoffatBay/images/logo.png" alt="Moffat Bay Lodge Logo">
         <section class="hero-section">
         	<div class="hero-section-content">
 		        <h1>Escape to Nature's Embrace at Moffat Bay Lodge</h1>
@@ -199,7 +199,7 @@
     <!-- Rooms and Activities Section -->
     <section class="rooms-activities">
         <div>
-            <img src="images/lodge1.jpeg" alt="Beautiful Room View">
+            <img src="/MoffatBay/images/lodge1.jpeg" alt="Beautiful Room View">
             <h3>Beautiful Rooms</h3>
             <p>Breathtaking rooms and seaside adventures await you at Moffat Bay Lodge!</p>
             <a href="<%=base%>?action=reserve" class="reserve-button">Reserve Your Room Today!</a>
@@ -207,7 +207,7 @@
         <div>
             <h3>Seaside Activities to Explore</h3>
             <p>Create a memorable experience at our beautiful location on Earth.</p>
-            <img src="images/beachfamily.jpg" alt="Seaside Activities">
+            <img src="/MoffatBay/images/beachfamily.jpg" alt="Seaside Activities">
         </div>
     </section>
     <jsp:include page="footer.jsp" flush="true"/>

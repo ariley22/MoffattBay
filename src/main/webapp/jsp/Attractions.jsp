@@ -20,27 +20,27 @@
         <p>Here are some must visit attractions and activities near Moffat Bay:</p>
         <div class="attractions-list">
             <div class="attraction">
-                <img src="images/about/fishing.jpg" alt="Fishing">
+                <img src="/MoffatBay/images/about/fishing.jpg" alt="Fishing">
                 <h3>Fishing</h3>
                 <p>Experience the thrill of fishing in the serene waters of Moffat Bay. Perfect for beginners and pros alike!</p>
             </div>
             <div class="attraction">
-                <img src="images/about/kayaking.jpg" alt="Kayaking">
+                <img src="/MoffatBay/images/about/kayaking.jpg" alt="Kayaking">
                 <h3>Kayaking</h3>
                 <p>Paddle through picturesque waterways and enjoy breathtaking views of nature.</p>
             </div>
             <div class="attraction">
-                <img src="images/about/shops.jpeg" alt="Local Shops">
+                <img src="/MoffatBay/images/about/shops.jpeg" alt="Local Shops">
                 <h3>Local Shops</h3>
                 <p>Browse charming boutiques offering unique handmade crafts and souvenirs.</p>
             </div>
             <div class="attraction">
-                <img src="images/about/birdwatching.png" alt="Bird Watching">
+                <img src="/MoffatBay/images/about/birdwatching.png" alt="Bird Watching">
                 <h3>Bird Watching</h3>
                 <p>Spot a variety of birds in their natural habitats, a paradise for nature enthusiasts.</p>
             </div>
             <div class="attraction">
-                <img src="images/about/trail.jpg" alt="Scenic Trails">
+                <img src="/MoffatBay/images/about/trail.jpg" alt="Scenic Trails">
                 <h3>Scenic Trails</h3>
                 <p>Hike along stunning trails that wind through forests and along the coastline.</p>
             </div>

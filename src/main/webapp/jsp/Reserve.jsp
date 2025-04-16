@@ -87,11 +87,11 @@
       <input type="hidden" name="action" value="confirm"/>
       <table>
         <tr>
-          <th colspan="4">Booking Options</th>
+          <th>Booking Options</th>
           </tr>
         <tr>
-          <td><label for="roomType">Room Type:</label>
-			<select name="roomType" id="roomType">
+          <td><label for="roomType">Room Type:</label></td>
+			<td><select name="roomType" id="roomType">
 			  <option value="Double Full">Double Full Beds ($120/night)</option>
 			  <option value="Queen">Queen ($135/night)</option>
 			  <option value="Double Queen">Double Queen Beds ($150/night)</option>

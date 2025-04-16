@@ -8,12 +8,11 @@
 <footer class="footer1">
     	<div class="footer-section">
 	        <div class="contact">
-		        Contact Us: 
-		        Moffat Bay Lodge
-				123 Island View Road
-				Joviedsa Island, San Juan Islands, WA
-				Phone: (555) 123-4567
-				Email: info@moffatbaylodge.com
+		        Moffat Bay Lodge<br/>
+				123 Island View Road<br/>
+				Joviedsa Island, San Juan Islands, WA<br/>
+				(555) 123-4567<br/>
+				info@moffatbaylodge.com
 	        </div>
 	        <div class="links">
 	        	<h3>Quick Links</h3>
@@ -24,9 +23,9 @@
 	        </div>
 	        <div class="social-icons">
 	        	<h3>Follow Us!</h3>
-	            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-	            <a href="#"><img src="images/x.png" alt="Twitter"></a>
-	            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+	            <a href="#"><img src="/MoffatBay/images/facebook.png" alt="Facebook"></a>
+	            <a href="#"><img src="/MoffatBay/images/x.png" alt="Twitter"></a>
+	            <a href="#"><img src="/MoffatBay/images/instagram.png" alt="Instagram"></a>
 	        </div>
 	        <div class="policy">
 	        	<p>

@@ -65,7 +65,7 @@
           <th colspan="4">Booking Options</th>
           </tr>
         <tr>
-          <td><label for="roomType">Room Type:</label>
+          <td><label for="roomType">Room Type:</label></td><td>
 			<select name="roomType" id="roomType" disabled="true">
 			  <option value="<%=reservation.getRoomType() %>"><%=typeOfRoomLabel %></option>
 			</select></td>
@@ -84,20 +84,14 @@
           <td>Check-Out Date:</td>
           <td><input type="date" name="checkOutDate" value="<%=request.getParameter("checkOutDate")%>" readonly/></td>
           </tr>
-          <tr><td><b>Number of Nights: </b></td><td><%=reservation.getNumNights() %></td></tr>
+          <tr><td>Number of Nights: </td><td><%=reservation.getNumNights() %></td></tr>
           <tr><td><b>Total Price: </b></td><td><%=reservation.calculatePrice() %></td></tr>
          <tr>
-          <td></td>
-          <td><input type="submit" value="Submit"/></td>
-         </tr>
-        </table>
+          <td><input type="submit" value="Submit"/></td><td>
       </form>
     <form action="">
       <input type="hidden" name="action" value="reserve"/>
-      <table>
-      	<tr>
-          <td>&nbsp;</td>
-          <td><input type="submit" value="Cancel"/></td>
+          <input type="submit" value="Cancel"/></td>
          </tr>
         </table>
       </form>
